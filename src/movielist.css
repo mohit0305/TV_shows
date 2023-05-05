@@ -47,7 +47,10 @@ body {
 .card_right {
 	border-radius: 2px;
 }
-
+.Read_More:hover{
+background-color: #6a08ac;
+color: antiquewhite;
+}
 .card_cat {
 	width: 100%;
 	display: -webkit-box;

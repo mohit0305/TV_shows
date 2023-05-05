@@ -18,6 +18,7 @@ const Home = () => {
           {movies && <DataContext.Provider value={{ showid, setShowid }}>< MovieList movies = { movies}  /> </DataContext.Provider>}
           </div>
           <div className="right-pane">
+           {showid === 0 && <h3>Click on <b>"Read More"</b> button in left screen to find details of that particular show show</h3>} 
           {showid != 0 && <ShowDetail id = {showid} movies = { movies} />}
           </div>
         </div>

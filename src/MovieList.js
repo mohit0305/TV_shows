@@ -30,7 +30,7 @@ const MovieList = ({movies}) => {
                         <button onClick={() => {
                             setShowid(movie.show.id);
                             // console.log(movie.show.id);
-                        }}>
+                        }} className="Read_More">
                             <i class="fas fa-play"></i> Read More
                         </button>
                         {/* <!-- GET--> */}
